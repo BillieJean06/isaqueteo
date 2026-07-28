@@ -67,8 +67,8 @@ function Contato() {
       <p className="mono-label">Contato</p>
       <h1 className="mt-3 text-4xl font-bold sm:text-5xl">Vamos conversar</h1>
       <p className="mt-4 max-w-xl text-muted-foreground">
-        Propostas de trabalho, freelas ou parcerias técnicas: descreva o contexto e eu respondo
-        em até dois dias úteis.
+        Propostas de trabalho, freelas ou parcerias técnicas: descreva o contexto e eu respondo em
+        até dois dias úteis.
       </p>
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[1.4fr_1fr]">

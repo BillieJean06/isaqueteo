@@ -9,7 +9,7 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Conheça a trajetória de Isaque Teodoro: desenvolvedor de software focado em aplicações web escaláveis, acessíveis e bem construídas.",
+          "Conheça a trajetória de Isaque Teodoro: desenvolvedor Full Stack focado em aplicações web escaláveis, acessíveis e bem construídas.",
       },
       { property: "og:title", content: "Sobre mim — Isaque Teodoro" },
       {
@@ -27,9 +27,7 @@ function Sobre() {
       <section className="border-b border-border/70">
         <div className="mx-auto max-w-3xl px-5 py-20">
           <p className="mono-label">Sobre mim</p>
-          <h1 className="mt-3 text-4xl font-bold sm:text-5xl">
-            Engenharia com foco em clareza
-          </h1>
+          <h1 className="mt-3 text-4xl font-bold sm:text-5xl">Ciências da Computação</h1>
           {about.map((p) => (
             <p key={p} className="mt-6 text-lg leading-relaxed text-muted-foreground">
               {p}

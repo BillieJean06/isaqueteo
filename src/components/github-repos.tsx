@@ -55,7 +55,10 @@ export function GithubRepos() {
         {isPending && (
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {Array.from({ length: 6 }).map((_, i) => (
-              <li key={i} className="h-40 animate-pulse rounded-lg border border-border bg-surface" />
+              <li
+                key={i}
+                className="h-40 animate-pulse rounded-lg border border-border bg-surface"
+              />
             ))}
           </ul>
         )}

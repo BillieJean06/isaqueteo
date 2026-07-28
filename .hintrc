@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "typescript-config/consistent-casing": "off",
+    "compat-api/css": "off",
+    "react-missing-key": "off",
+    "css-indentation": "off",
+    "import-sorting/order": "off"
+  }
+}

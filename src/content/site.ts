@@ -1,13 +1,12 @@
 export const profile = {
   name: "Isaque Teodoro",
-  role: "Desenvolvedor de Software",
+  role: "Desenvolvedor Full Stack",
   tagline:
     "Construo produtos web escaláveis, acessíveis e rápidos — do banco de dados à interface.",
   location: "Brasil · Remoto",
-  email: "contato@isaqueteodoro.dev",
-  // Ajuste estes identificadores para os seus perfis reais.
-  githubUser: "isaqueteodoro",
-  linkedinUser: "isaqueteodoro",
+  email: "isaque.teodoro1234@gmail.com",
+  githubUser: "BillieJean06",
+  linkedinUser: "isaque-teodoro-017a4b3a1",
   get githubUrl() {
     return `https://github.com/${this.githubUser}`;
   },
@@ -17,16 +16,17 @@ export const profile = {
 };
 
 export const about = [
-  "Sou desenvolvedor de software com foco em aplicações web modernas. Trabalho do desenho da arquitetura à entrega, priorizando performance, acessibilidade e código sustentável.",
+  "Sou desenvolvedor Full Stack com foco em aplicações web modernas. Trabalho do desenho da arquitetura à entrega, priorizando performance, acessibilidade e código sustentável.",
   "Gosto de resolver problemas de verdade: reduzir tempo de carregamento, simplificar fluxos confusos e transformar requisitos vagos em produtos claros e mensuráveis.",
 ];
 
 export const stack = [
   "TypeScript",
+  "JavaScript",
   "React",
   "Node.js",
-  "TanStack Start",
   "PostgreSQL",
+  "Python",
   "Tailwind CSS",
   "Serverless / Edge",
   "CI/CD",
@@ -43,43 +43,37 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    period: "2023 — atual",
-    role: "Desenvolvedor Full Stack",
-    company: "Projetos independentes e consultoria",
-    description:
-      "Desenvolvimento de aplicações web sob demanda com arquitetura serverless e entrega contínua.",
+    period: "2026 — atual",
+    role: "Desenvolvedor Front-end",
+    company: "Limer Gestão Saúde Corporativa",
+    description: "Desenvolvimento de aplicações web com arquitetura moderna.",
     highlights: [
-      "Arquitetura edge/serverless com deploy automatizado",
-      "Padronização de design systems acessíveis (WCAG AA)",
+      "Desenvolvimento e manutenção da plataforma e landing pages de grande escala.",
+      "Implementação de design systems acessíveis",
       "Otimização de Core Web Vitals e SEO técnico",
     ],
   },
   {
-    period: "2021 — 2023",
-    role: "Desenvolvedor Front-end",
-    company: "Time de produto",
-    description:
-      "Construção de interfaces em React com foco em componentização, testes e experiência do usuário.",
-    highlights: [
-      "Migração de páginas legadas para React + TypeScript",
-      "Cobertura de testes e revisão de código em pares",
-      "Integração com APIs REST e autenticação",
-    ],
+    period: "2025 — 2026",
+    role: "Assistente Administrativo",
+    company: "Limer Gestão de Saúde Corporativa",
+    description: "Atendimento ao cliente e suporte interno",
+    highlights: ["Atendimento de alta qualidade", "Suporte técnico a usuários"],
   },
   {
-    period: "2019 — 2021",
-    role: "Desenvolvedor Júnior",
-    company: "Início de carreira",
-    description:
-      "Manutenção de sistemas internos, automações e primeiros projetos de API.",
-    highlights: ["Rotinas de automação", "APIs REST em Node.js", "Suporte técnico a usuários"],
+    period: "2024 — 2025",
+    role: "Atendente e Vendedor",
+    company: "Palmifilhos Comercio de Alimentos Ltda",
+    description: "Atendimento ao cliente e vendas de produtos",
+    highlights: ["Atendimento inicial ao cliente", "Auxilio em vendas"],
   },
 ];
 
 export const education = [
-  { period: "2018 — 2022", title: "Análise e Desenvolvimento de Sistemas", org: "Graduação" },
-  { period: "2023", title: "Arquitetura Serverless e Cloud", org: "Certificação técnica" },
-  { period: "2024", title: "Acessibilidade Web (WCAG)", org: "Especialização" },
+  { period: "2021 — 2024", title: "Ensino Médio", org: "E.E. Dep. Jamil Gadia" },
+  { period: "2022 — 2023", title: "Curso Introdução à Robótica com Arduino", org: "Senai Roberto Mange" },
+  { period: "2024 — 2024", title: "CC50 - O Curso de Ciência da Computação de Harvard no Brasil", org: "Universidade Harvard" },
+  { period: "2024 — atual", title: "Ciências da Computação", org: "Graduação" },
 ];
 
 export type Project = {
@@ -93,25 +87,25 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "plataforma-serverless",
-    title: "Plataforma serverless de conteúdo",
+    slug: "Gestão de Envio de Prontuários",
+    title: "Gestão de Envio de Prontuários",
     summary:
-      "Aplicação full stack em arquitetura edge, com renderização no servidor, cache inteligente e custo próximo de zero em baixa demanda.",
-    tags: ["TanStack Start", "Edge Functions", "PostgreSQL"],
+      "Plataforma desenvolvida para gerenciar o envio e o acompanhamento de prontuários médicos da Unimed Brasil - SOU",
+    tags: ["Next.js", "Tailwind CSS", "PostgreSQL"],
   },
   {
-    slug: "design-system-acessivel",
-    title: "Design system acessível",
+    slug: "AD Belém Campinas",
+    title: "AD Belém Campinas",
     summary:
-      "Biblioteca de componentes React auditada em WCAG AA, com tokens semânticos, temas e documentação viva.",
-    tags: ["React", "Tailwind", "A11y"],
+      "Site institucional desenvolvido para ampliar a presença digital da igreja, oferecendo uma experiência intuitiva para membros e visitantes, com informações sobre ministérios, projetos, eventos e canais de contato.",
+    tags: ["TypeScript", "React", "Tailwind CSS", "Supabase"],
   },
   {
-    slug: "api-observavel",
-    title: "API observável em Node.js",
+    slug: "Gestão Financeira",
+    title: "Gestão Financeira",
     summary:
-      "Serviço REST com logs estruturados, métricas, testes de contrato e pipeline de deploy contínuo.",
-    tags: ["Node.js", "CI/CD", "Observabilidade"],
+      "Sistema de controle financeiro simples e intuitivo para gerenciar despesas, receitas e fluxo de caixa em um único lugar.",
+    tags: ["TypeScript", "React", "Tailwind CSS", "PostgreSQL"],
   },
 ];
 

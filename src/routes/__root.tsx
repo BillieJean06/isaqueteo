@@ -90,14 +90,30 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:title", content: "Isaque Teodoro — Desenvolvedor de Software" },
       { name: "twitter:title", content: "Isaque Teodoro — Desenvolvedor de Software" },
-      { property: "og:description", content: "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless." },
-      { name: "twitter:description", content: "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbbfde40-5d9e-42b7-a4c5-954320eff5fb/id-preview-e7c71040--e6902aae-7253-4aad-b05e-ef078074baad.lovable.app-1785222808035.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbbfde40-5d9e-42b7-a4c5-954320eff5fb/id-preview-e7c71040--e6902aae-7253-4aad-b05e-ef078074baad.lovable.app-1785222808035.png" },
+      {
+        property: "og:description",
+        content:
+          "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless.",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbbfde40-5d9e-42b7-a4c5-954320eff5fb/id-preview-e7c71040--e6902aae-7253-4aad-b05e-ef078074baad.lovable.app-1785222808035.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbbfde40-5d9e-42b7-a4c5-954320eff5fb/id-preview-e7c71040--e6902aae-7253-4aad-b05e-ef078074baad.lovable.app-1785222808035.png",
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -148,4 +164,3 @@ function RootComponent() {
     </QueryClientProvider>
   );
 }
-
