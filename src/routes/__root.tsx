@@ -83,11 +83,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Portfólio, currículo digital e artigos técnicos de Isaque Teodoro, desenvolvedor de software.",
+          "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless.",
       },
       { name: "author", content: "Isaque Teodoro" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Isaque Teodoro — Desenvolvedor de Software" },
+      { name: "twitter:title", content: "Isaque Teodoro — Desenvolvedor de Software" },
+      { property: "og:description", content: "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless." },
+      { name: "twitter:description", content: "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbbfde40-5d9e-42b7-a4c5-954320eff5fb/id-preview-e7c71040--e6902aae-7253-4aad-b05e-ef078074baad.lovable.app-1785222808035.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbbfde40-5d9e-42b7-a4c5-954320eff5fb/id-preview-e7c71040--e6902aae-7253-4aad-b05e-ef078074baad.lovable.app-1785222808035.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

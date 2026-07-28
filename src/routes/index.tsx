@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Isaque Teodoro — Desenvolvedor de Software" },
       {
         property: "og:description",
-        content: "Currículo digital, projetos e artigos técnicos sobre desenvolvimento web.",
+        content: "Currículo digital, projetos e artigos técnicos de Isaque Teodoro, desenvolvedor de software full stack focado em performance, acessibilidade e arquitetura serverless.",
       },
     ],
     scripts: [
