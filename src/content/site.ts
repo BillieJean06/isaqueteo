@@ -71,8 +71,16 @@ export const experiences: Experience[] = [
 
 export const education = [
   { period: "2021 — 2024", title: "Ensino Médio", org: "E.E. Dep. Jamil Gadia" },
-  { period: "2022 — 2023", title: "Curso Introdução à Robótica com Arduino", org: "Senai Roberto Mange" },
-  { period: "2024 — 2024", title: "CC50 - O Curso de Ciência da Computação de Harvard no Brasil", org: "Universidade Harvard" },
+  {
+    period: "2022 — 2023",
+    title: "Curso Introdução à Robótica com Arduino",
+    org: "Senai Roberto Mange",
+  },
+  {
+    period: "2024 — 2024",
+    title: "CC50 - O Curso de Ciência da Computação de Harvard no Brasil",
+    org: "Universidade Harvard",
+  },
   { period: "2024 — atual", title: "Ciências da Computação", org: "Graduação" },
 ];
 
