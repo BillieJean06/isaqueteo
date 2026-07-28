@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
-import { formatDate, posts, profile } from "@/content/site";
+import { formatDate, posts, profile, type Post } from "@/content/site";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {
@@ -58,7 +58,7 @@ export const Route = createFileRoute("/blog/$slug")({
 });
 
 function Artigo() {
-  const { post } = Route.useLoaderData();
+  const { post } = Route.useLoaderData() as { post: Post };
 
   return (
     <article className="mx-auto max-w-3xl px-5 py-20">
