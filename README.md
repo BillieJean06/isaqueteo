@@ -4,17 +4,17 @@ Desenvolvedor Full-Stack apaixonado por transformar ideias em soluções escalá
 
 Atualmente atuo no desenvolvimento de aplicações web, com foco em arquitetura de software, desenvolvimento Full-Stack e boas práticas de engenharia de software.
 
-##  Portfólio
+## Portfólio
 
 Acesse meu portfólio e conheça alguns dos projetos que desenvolvi:
 
- **https://isaqueteo.vercel.app**
+ **<https://isaqueteo.vercel.app>**
 
 > Substitua pelo link do seu portfólio.
 
 ---
 
-#  Tecnologias
+# Tecnologias
 
 ### Front-end
 
@@ -55,9 +55,9 @@ Acesse meu portfólio e conheça alguns dos projetos que desenvolvi:
 
 ---
 
-#  Projetos
+# Projetos
 
-###  Plataforma de Saúde Corporativa
+### Plataforma de Saúde Corporativa
 
 Sistema desenvolvido para gestão de saúde ocupacional, contemplando módulos como:
 
@@ -77,7 +77,7 @@ Sistema desenvolvido para gestão de saúde ocupacional, contemplando módulos c
 
 ---
 
-###  Sistema de Agendamento
+### Sistema de Agendamento
 
 Aplicação para gerenciamento de agendamentos, profissionais e disponibilidade.
 
@@ -89,7 +89,7 @@ Aplicação para gerenciamento de agendamentos, profissionais e disponibilidade.
 
 ---
 
-###  Site Institucional
+### Site Institucional
 
 Website desenvolvido para apresentar a igreja, seus projetos, ministérios e eventos.
 
@@ -124,19 +124,19 @@ Projeto utilizando filas para processamento assíncrono.
 
 ---
 
-#  Contato
+# Contato
 
- Email: seuemail@email.com
+ Email: <seuemail@email.com>
 
- LinkedIn: https://linkedin.com/in/isaque-teodoro-017a4b3a1/
+ LinkedIn: <https://linkedin.com/in/isaque-teodoro-017a4b3a1/>
 
- GitHub: https://github.com/BillieJean06
+ GitHub: <https://github.com/BillieJean06>
 
- Portfólio: https://isaqueteo.vercel.app/
+ Portfólio: <https://isaqueteo.vercel.app/>
 
 ---
 
-##  Objetivo
+## Objetivo
 
 Este repositório reúne meu portfólio profissional, apresentando projetos, experiências e tecnologias que utilizo no desenvolvimento de software.
 
